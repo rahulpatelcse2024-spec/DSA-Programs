@@ -1,23 +1,15 @@
 #include<stdio.h>
 void main(){
-	int marks[4]={1,2,3,4},i,j,m;
-	printf("Original array: \n");
+	int arr[6]={1,2,3,4,5},i,n;
+	printf("The original array is: ");
 	for(i=0;i<5;i++){
-		if(marks[i]==0)
-		break;
-		printf("%d \n",marks[i]);
+		printf("%d ",arr[i]);
 	}
-	printf("\nEnter the position at which you want to insert a new element: ");
-	scanf("%d",&j);
-	for(i=5;i>=j-1;i--){
-		marks[i+1]=marks[i];
+	printf("\nEnter element to add in the array: ");
+	scanf("%d",&n);
+	arr[5]=n;
+	printf("The new array is: ");
+	for(i=0;i<6;i++){
+		printf("%d ",arr[i]);
 	}
-	printf("Enter the new marks: ");
-	scanf("%d",&m);
-	marks[j-1]=m;
-	printf("The updated array: \n");
-	for(i=0;i<5;i++){
-		printf("%d \n",marks[i]);
-	}
-	
 }
