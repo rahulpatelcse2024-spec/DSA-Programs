@@ -7,7 +7,7 @@ void main(){
 		printf("%d \n",marks[i]);
 		marks[i+1]=marks[i]+1;
 	}
-	printf("\nEnter the index of array you want to update: ");
+	printf("\nEnter the position of element you want to update: ");
 	scanf("%d",&i);
 	printf("Enter the new marks: ");
 	scanf("%d",&m);
@@ -18,4 +18,5 @@ void main(){
 	}
 	
 }
+
 
