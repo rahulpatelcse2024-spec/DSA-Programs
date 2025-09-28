@@ -4,6 +4,9 @@ void main(){
     printf("Enter a element to search: ");
     scanf("%d",&n);
     for(i=0;i<5;i++){
+        printf("arr[%d]=%d\n",i,arr[i]);
+    }
+    for(i=0;i<5;i++){
         if(arr[i]==n){
             printf("Element found at index %d",i);
             flag++;
