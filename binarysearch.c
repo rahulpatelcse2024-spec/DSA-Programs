@@ -12,7 +12,7 @@ int binarysearch(int arr[],int item,int high){
 		}}
 	return -1;}
 void main(){
-	int arr[5],low=0,item,high=5,result,i;
+	int arr[5],low=0,item,high=4,result,i;
 	printf("Enter array in sorted form: ");
 	for(i=0;i<5;i++){
 		scanf("%d",&arr[i]);
@@ -27,4 +27,5 @@ void main(){
 		printf("Element not found!");
 	}
 }
+
 
