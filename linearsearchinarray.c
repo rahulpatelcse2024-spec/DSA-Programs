@@ -10,6 +10,5 @@ void main(){
             break;
         }
     }
-    else printf("Element not found!");
+    if(flag==0) printf("Element not found!");
 }
-
